@@ -1,0 +1,11 @@
+{
+  "name": "material-colorpicker",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "serve": "11.0.0"
+  },
+  "scripts": {
+    "start": "serve -s ."
+  }
+}

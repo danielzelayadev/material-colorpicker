@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Color Picker</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="color-picker">
+        <div class="color"></div>
+        <div id="hex-area">
+          <span id="hex">#000000</span>
+        </div>
+        <div class="controls">
+          <label for="red">Red</label>
+          <input
+            id="red"
+            type="range"
+            min="0"
+            max="255"
+            value="0"
+            class="color-range"
+          />
+          <label for="green">Green</label>
+          <input
+            id="green"
+            type="range"
+            min="0"
+            max="255"
+            value="0"
+            class="color-range"
+          />
+          <label for="blue">Blue</label>
+          <input
+            id="blue"
+            type="range"
+            min="0"
+            max="255"
+            value="0"
+            class="color-range"
+          />
+        </div>
+      </div>
+    </div>
+    <script
+      src="jquery-1.11.1.min.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
